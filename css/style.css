@@ -1,0 +1,14 @@
+p {
+    border-style: solid;
+    border-width: medium;
+    border-color:#287EC7;
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+#bord {
+    border-style: solid;
+    border-width: medium;
+}
