@@ -1,14 +1,24 @@
 p {
-    border-style: solid;
-    border-width: medium;
-    border-color:#287EC7;
+    border-style: groove;
+    border-width: thin;
+    border-color:white;
 }
 
 div {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 #bord {
-    border-style: solid;
-    border-width: medium;
+    border-style: groove;
+    border-width: thin;
+    border-color: white;
+}
+
+.quest {
+    border-style: groove;
+    border-width: thin;
+    border-color:white;
+    border-radius: 5px;
+    margin: 15px;
+
 }
