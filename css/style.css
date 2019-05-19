@@ -1,8 +1,3 @@
-p {
-    border-style: groove;
-    border-width: thin;
-    border-color:white;
-}
 
 div {
     margin-bottom: 5px;
@@ -19,6 +14,14 @@ div {
     border-width: thin;
     border-color:white;
     border-radius: 5px;
-    margin: 15px;
+    margin: 10px;
 
+}
+
+.pet {
+    margin-left: 45px;
+}
+
+.p-quest {
+    padding-left: 45px;
 }
