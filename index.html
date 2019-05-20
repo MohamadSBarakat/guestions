@@ -23,6 +23,7 @@
            <div class="row"> <!-- Row De Lien-->
                 <div class="col-lg-3 col-md-3"> <!-- Colonne Rechreche -->
                   <input type="search" id="search-special" class="form-control" name="search-special" value="Spécialité " placeholder="Spécialité"> 
+                  <i class="fas fa-search"></i>
                 </div> 
                 
                 <div class="col-lg-3 col-md-3"> <!-- Colonne Rechreche -->
@@ -41,33 +42,65 @@
               </div> 
             </div>  <!-- Div de-->
 
-            <i class="fas fa-arrow-left fa-3x"></i>
-
-            <div class="row">
-                <div class="col-lg-4">
-                  Resultats trouves: 12
+            <div class="row icony" style="margin:auto;">
+                <div class="col-lg-5">
+                  <span>Resultats trouves:</span> 
+                  <span><strong>12</strong></span>
                 </div>
 
                 <div class="col-lg-4">
-                  <span>|</span>
-                  <span><i class="fas fa-arrow-left"></i></span>
+                <p><span><i class="fas fa-arrow-left fa-2x"></i></span>
+                  <span>&nbsp; &nbsp;</span>
+                  <span><i class="fas fa-angle-left fa-2x"></i></span>
+                  <span>&nbsp; &nbsp; &nbsp; &nbsp;</span>
+                  <span><strong> page  n </strong></span>
+                  <span>&nbsp; &nbsp; &nbsp; &nbsp;</span>
+                  <span><i class="fas fa-angle-right fa-2x"></i>
+                  <span>&nbsp; &nbsp;</span>
+                  <span><i class="fas fa-arrow-right fa-2x"></i></span>  
+                  </span>
+                </p>  
                 </div>
 
-            </div>
+                <div class="col-lg-12">
+                 
+                        <span>Nb par page:</span>
+                         
+                         
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                 2
+                                </button>
+                                <div class="dropdown-menu">
+                                  <a class="dropdown-item" href="#">1</a>
+                                  <a class="dropdown-item" href="#">2</a>
+                                  <a class="dropdown-item" href="#">3</a>
+                                  <a class="dropdown-item" href="#">4</a>
+                                </div>
+                              </div>
 
+                         
+    
+                  
+                </div>
 
+                
+            </div> 
+            
+
+             
 
             <div class="row">
-              <div class="row">
-                <p class="pet"><span><h3>1/12</h3></span>
-                  <span><h3>   </h3></span> 
+              <div class="col">
+                <p class="pet"><span><strong>1/12</strong></span>
+                    <span>  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;</span> 
                     <span>Numéro - Spécialité - DCI  - Mises à jour: 5 - Dernière: date</span></p>
               </div>
-          </div>
+            </div>
 
             <div class="row quest">
-                <div class="col-lg-12 col-sm-12">   
-                  <p class="p-quest">petite question - Numéro - Spécialité - DCI</p> 
+                <div class="col-lg-12 col-sm-12 offset-lg-1 p-quest">   
+                   <strong>petite question</strong> - Numéro - Spécialité - DCI 
                 </div>
                 
                   <div class="col-lg-4">Date  -  Traité par</div>
@@ -96,39 +129,52 @@
             </div>
           <h3>2/12</h3>  
 
+           
 
+          <div class="row quest">
+              <div class="col-lg-12 col-sm-12 offset-lg-1 p-quest">   
+                 <strong>petite question</strong> - Numéro - Spécialité - DCI 
+              </div>
+                
+                  <div class="col-lg-4">Date  -  Traité par</div>
+                  <div class="col-lg-2 offset-lg-6"><a href="#">Détail - Modifier</a></div>
+               
 
+                  <div class="col-lg-6">
+                    <h2>Question</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>  
+                  </div>
 
-            <div class="spn">
-              <span>M</span>
-              <span>S</span>
-              <span>L</span>
-              <span>K</span>
-             </div>
+                  <div class="col-lg-6">
+                    <h2>Reponse</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>  
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>  
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>  
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>                 
+                  </div>
+          </div>
 
-
+             
       </div>   <!-- Div de container -->
          
-       </div>
-       <div class="spn"> Grand House
-        <span>M</span>
-        <span>S</span>
-        <span>L</span>
-        <span>K</span>
-       </div>
+        
 
-       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" 
-       fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" 
-       stroke-linejoin="round" class="feather feather-mail">
-       <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-       <polyline points="22,6 12,13 2,6"></polyline></svg>
+
+       
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>            
         <script src="js/fontawesome.min.js"></script>
-        <script src="js/jquery-3.3.1.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+      <!-- <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script> --> 
     </body>
 
 </html>

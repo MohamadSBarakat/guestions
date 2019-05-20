@@ -1,22 +1,23 @@
 
 div {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 #bord {
     border-style: groove;
     border-width: thin;
-    border-color: white;
-    background-color: aquamarine;
-    padding-left: 25px;
+    border-color:rgb(189, 59, 20);
+    border-radius: 25px;
+    padding: 7px 25px;
+    margin-bottom: 10px;
 }
 
 .quest {
     border-style: groove;
     border-width: thin;
     border-color:rgb(189, 59, 20);
-    border-radius: 15px;
-    margin: 10px 100px 
+    border-radius: 25px;
+    margin: 10px 60px 
 
 }
 
@@ -36,4 +37,8 @@ div {
     margin: 50px;
     text-align: center;
     
+}
+
+.icony {
+    margin:auto;
 }
