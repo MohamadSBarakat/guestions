@@ -7,14 +7,16 @@ div {
     border-style: groove;
     border-width: thin;
     border-color: white;
+    background-color: aquamarine;
+    padding-left: 25px;
 }
 
 .quest {
     border-style: groove;
     border-width: thin;
-    border-color:white;
-    border-radius: 5px;
-    margin: 10px;
+    border-color:rgb(189, 59, 20);
+    border-radius: 15px;
+    margin: 10px 100px 
 
 }
 
@@ -23,5 +25,15 @@ div {
 }
 
 .p-quest {
-    padding-left: 45px;
+    padding-left:10;
+     
+
+}
+
+.spn {
+    
+    box-align: center;
+    margin: 50px;
+    text-align: center;
+    
 }
