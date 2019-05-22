@@ -1,44 +1,44 @@
 
 div {
-  margin-bottom: 5px;
+ margin-bottom: 5px;
 }
 
 #bord {
-    border-style: groove;
-    border-width: thin;
-    border-color:rgb(189, 59, 20);
-    border-radius: 25px;
-    padding: 7px 25px;
-    margin-bottom: 10px;
+  border-style: groove;
+  border-width: thin;
+  border-color:rgb(189, 59, 20);
+  border-radius: 25px;
+  padding: 7px 25px;
+  margin-bottom: 10px;
 }
 
 .quest {
-    border-style: groove;
-    border-width: thin;
-    border-color:rgb(189, 59, 20);
-    border-radius: 25px;
-    margin: 10px 60px 
+  border-style: groove;
+  border-width: thin;
+  border-color:rgb(189, 59, 20);
+  border-radius: 25px;
+  margin: 10px 60px 
 
 }
 
-input[type="text"] {
+input[type="search"] {
   width: 100%;
   border: 2px solid #aaa;
   border-radius: 4px;
   margin: 8px 0;
   outline: none;
-  padding: 8px;
+  padding: 5px;
   box-sizing: border-box;
   transition: 0.3s;
 }
 
-input[type="text"]:focus {
+input[type="search"]:focus {
   border-color: dodgerBlue;
   box-shadow: 0 0 8px 0 dodgerBlue;
 }
 
-.inputWithIcon input[type="text"] {
-  padding-left: 40px;
+.inputWithIcon input[type="search"] {
+  padding-left: 10px;
 }
 
 .inputWithIcon {
@@ -48,29 +48,15 @@ input[type="text"]:focus {
 .inputWithIcon i {
   position: absolute;
   right: 0;
-  top: 8px;
-  padding: 9px 8px;
+  top: 18px;
+  padding: 13px -10px;
   color: #aaa;
   transition: 0.3s;
 }
 
-.inputWithIcon input[type="text"]:focus + i {
+.inputWithIcon input[type="search"]:focus + i {
   color: dodgerBlue;
 }
-
-.inputWithIcon.inputIconBg i {
-  background-color: #aaa;
-  color: #fff;
-  padding: 9px 4px;
-  border-radius: 4px 0 0 4px;
-}
-
-.inputWithIcon.inputIconBg input[type="text"]:focus + i {
-  color: #fff;
-  background-color: dodgerBlue;
-}
-
-  
 
 .pet {
     margin-left: 45px;
@@ -78,8 +64,6 @@ input[type="text"]:focus {
 
 .p-quest {
     padding-left:10;
-     
-
 }
 
 .spn {
@@ -93,3 +77,9 @@ input[type="text"]:focus {
 .icony {
     margin:auto;
 }
+
+.btn-marg button {
+  padding-top: 20px;
+}
+
+ 
