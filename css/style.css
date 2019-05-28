@@ -88,4 +88,10 @@ input[type="search"]:focus {
   padding-top: 20px;
 }
 
+.typeDedo {
+   background-color: #aaa;
+   border-style: groove;
+   border-width: thin;
+}
+
  
